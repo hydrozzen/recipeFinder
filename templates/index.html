@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            background-image: url('https://i.ibb.co/wRgk4Cg/des.jpg'); /* Default background image for desktop */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Mobile background image */
+        @media (max-width: 768px) {
+            body {
+                background-image: url('https://i.ibb.co/92mhV31/mobile.jpg'); /* Background for mobile */
+            }
+            .container{
+                margin-left: 0px !important;
+            }
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 90%;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            margin-left: -45px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #e50914; /* Netflix red */
+            margin-bottom: 20px;
+        }
+
+        /* Recipe input fields */
+        input[type="text"] {
+            padding: 10px;
+            font-size: 1.1em;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+        }
+
+        /* Button styling */
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #d40811;
+        }
+
+        /* Button to add more ingredients */
+        .add-more-btn {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #555;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .add-more-btn:hover {
+            background-color: #777;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            input[type="text"] {
+                font-size: 1em;
+            }
+
+            button, .add-more-btn {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Find Recipes by Ingredients</h1>
+        <form action="/" method="POST">
+            <div id="ingredients-container">
+                <!-- Default two ingredient fields -->
+                <input type="text" name="ingredient1" class="ingredient-input" placeholder="Enter Ingredient 1" required>
+                <input type="text" name="ingredient2" class="ingredient-input" placeholder="Enter Ingredient 2" required>
+            </div>
+
+            <br>
+            <!-- Button to add more ingredients -->
+            <button type="button" onclick="addIngredientField()">Add More Ingredients</button>
+
+            <br><br>
+            <button type="submit">Find Recipes</button>
+        </form>
+    </div>
+
+    <script>
+        // Function to add more input fields for ingredients
+        function addIngredientField() {
+            var ingredientCount = document.querySelectorAll(".ingredient-input").length;
+            var newInput = document.createElement("input");
+            newInput.type = "text";
+            newInput.name = "ingredient" + (ingredientCount + 1);
+            newInput.classList.add("ingredient-input");
+            newInput.placeholder = "Enter Ingredient " + (ingredientCount + 1);
+            document.getElementById("ingredients-container").appendChild(newInput);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+[
+    {
+      "name": "Vegetable Biryani",
+      "ingredients": ["rice", "carrot", "peas", "beans", "yogurt", "onion", "spices", "saffron"],
+      "instructions": "Start by soaking the rice, because even rice needs a little spa time. While it relaxes, chop your veggies and fry some onions until they are gloriously golden. Toss in your veggies, spices, and yogurt, letting the flavors mingle like a party in a pot. Now comes the layering—half-cooked rice, veggies, and saffron water in a pot. Seal it tightly like you're hiding a treasure and let it cook slowly. Serve it up, and enjoy the applause from your taste buds."
+    },
+    {
+      "name": "Palak Paneer",
+      "ingredients": ["spinach", "paneer", "cream", "onion", "garlic", "ginger", "spices"],
+      "instructions": "Boil some spinach until it looks like it’s seen better days, then blend it into a smooth green puree—it’ll thank you later. In a pan, sauté onions, garlic, and ginger until your kitchen smells heavenly. Add spices and the spinach puree, giving it a quick stir like you’re conducting an orchestra. Toss in the paneer cubes and a splash of cream, and let everything simmer together like old friends catching up. Serve it hot and pretend you’re a Michelin-star chef."
+    },
+    {
+      "name": "Chicken Caesar Salad",
+      "ingredients": ["chicken breast", "lettuce", "croutons", "parmesan cheese", "Caesar dressing"],
+      "instructions": "Cook chicken breast until it’s perfectly golden and juicy—try not to snack on it right away! Chop up some lettuce and toss it in a bowl like you’re mixing a potion. Add croutons for that crunch factor, and don’t skimp on the Parmesan cheese—it’s the real star. Drizzle Caesar dressing generously, toss it all together, and enjoy a salad so good, it might convert the biggest salad skeptics."
+    },
+    {
+      "name": "Hakka Noodles",
+      "ingredients": ["noodles", "bell peppers", "carrot", "onion", "soy sauce", "chili sauce", "vinegar"],
+      "instructions": "Boil noodles until they’re just right—not too soggy, not too firm. In a wok, heat some oil and stir-fry your veggies like you’re in a culinary action movie. Add soy sauce, chili sauce, and vinegar, creating a sizzling symphony. Toss in the noodles and mix like your life depends on it. Serve hot and let everyone think you ordered takeout!"
+    },
+    {
+      "name": "Aloo Gobi",
+      "ingredients": ["potato", "cauliflower", "onion", "tomato", "spices", "coriander"],
+      "instructions": "Chop potatoes and cauliflower into bite-sized pieces. In a pan, heat oil and fry onions until golden, then toss in tomatoes and spices to create a deliciously fragrant base. Add the veggies and cook until they’re tender and slightly crispy. Garnish with coriander and serve, basking in your own culinary genius."
+    },
+    {
+      "name": "Thai Green Curry",
+      "ingredients": ["coconut milk", "green curry paste", "chicken", "bamboo shoots", "eggplant", "basil"],
+      "instructions": "Heat coconut milk in a pot until it’s warm and inviting. Stir in green curry paste, inhaling the fragrant magic. Add chicken and cook until tender, then throw in bamboo shoots and eggplant like you’re making a masterpiece. Let everything simmer together, sprinkle some basil on top, and serve with jasmine rice."
+    },
+    {
+      "name": "Mango Cheesecake",
+      "ingredients": ["mango puree", "cream cheese", "biscuits", "butter", "sugar"],
+      "instructions": "Crush biscuits into fine crumbs—yes, smashing them is therapeutic. Mix the crumbs with melted butter and press into a pan to form the base. Blend cream cheese, sugar, and mango puree into a creamy, dreamy mixture. Pour it over the base and refrigerate until set. Slice and serve, feeling like a dessert wizard."
+    },
+    {
+      "name": "Rajma Masala",
+      "ingredients": ["kidney beans", "onion", "tomato", "ginger", "garlic", "spices"],
+      "instructions": "Soak kidney beans overnight, because they need their beauty sleep too. Cook them until tender and set aside. In a pan, sauté onions, ginger, and garlic until fragrant, then add tomatoes and spices to create a flavorful curry base. Toss in the cooked beans and let them simmer together. Serve hot with rice, and enjoy every comforting bite."
+    },
+    {
+      "name": "Fish Tacos",
+      "ingredients": ["fish fillets", "tortillas", "cabbage", "lime", "sour cream", "spices"],
+      "instructions": "Season fish fillets with spices and pan-fry until golden. Warm up tortillas and fill them with shredded cabbage, cooked fish, and a dollop of sour cream. Squeeze lime over the top and fold them like you’re tucking them into bed. Enjoy a bite of sunshine in taco form."
+    },
+    {
+      "name": "Tomato Basil Soup",
+      "ingredients": ["tomato", "basil", "cream", "onion", "garlic", "butter"],
+      "instructions": "Roast tomatoes and blend them into a silky puree. In a pot, sauté onions and garlic in butter, then add the tomato puree and let it simmer. Stir in cream and fresh basil leaves for that perfect balance of tangy and creamy. Serve with a side of toasted bread and enjoy the warm hug in a bowl."
+    },
+    {
+      "name": "Chilli Paneer",
+      "ingredients": ["paneer", "capsicum", "onion", "soy sauce", "chili sauce", "cornflour"],
+      "instructions": "Fry paneer cubes until they’re golden and irresistible. In a pan, stir-fry onions and capsicum until they’re crunchy yet tender. Add soy sauce, chili sauce, and a cornflour slurry to make a glossy, spicy sauce. Toss in the fried paneer and mix well. Serve hot and prepare for compliments."
+    },
+    {
+      "name": "Pasta Alfredo",
+      "ingredients": ["pasta", "cream", "butter", "garlic", "parmesan cheese"],
+      "instructions": "Boil pasta until al dente, because mushy pasta is a crime. In a pan, melt butter and sauté garlic until fragrant. Add cream and Parmesan cheese, stirring until it transforms into a rich, creamy sauce. Toss in the pasta and mix like you’re painting a masterpiece. Serve with extra cheese on top and revel in carb heaven."
+    },
+    {
+      "name": "Chocolate Mug Cake",
+      "ingredients": ["flour", "cocoa powder", "sugar", "milk", "oil", "chocolate chips"],
+      "instructions": "Mix all the ingredients in a mug like you’re conducting a mini science experiment. Microwave for a minute or two, watching it rise like magic. Top with chocolate chips, grab a spoon, and enjoy your personal dessert in a cup."
+    },
+    {
+      "name": "Bread Pakoda",
+      "ingredients": ["bread", "gram flour", "potato", "spices", "oil"],
+      "instructions": "Mash the potatoes with spices and stuff them between two slices of bread like a savory sandwich. Dip the sandwich in a gram flour batter and fry it in hot oil until it’s golden and crispy. Serve hot with chutney and watch it disappear faster than you made it."
+    },
+    {
+      "name": "Samosa",
+      "ingredients": ["flour", "potato", "peas", "spices", "oil"],
+      "instructions": "Make a dough from flour and water; knead it like you’re practicing for a hand wrestling competition. Prepare a potato and pea filling with spices, tasting a little too much as you go. Shape the dough into triangles, stuff them with the filling, and fry until crispy. Enjoy with tea and pretend you're at a roadside stall."
+    },
+    {
+      "name": "Idli",
+      "ingredients": ["idli batter", "water"],
+      "instructions": "Pour idli batter into greased molds, steam it, and patiently wait while the fluffy clouds of joy cook. Serve with sambar and coconut chutney, and enjoy the lightest breakfast you’ll ever have."
+    },
+    {
+      "name": "Upma",
+      "ingredients": ["semolina", "onion", "mustard seeds", "curry leaves", "spices"],
+      "instructions": "Toast semolina until it’s fragrant. Sauté onions, mustard seeds, and curry leaves in a pan like you’re setting the stage. Add water, spices, and the semolina, stirring until it turns into a fluffy masterpiece. Garnish with coriander and enjoy."
+    },
+    {
+      "name": "Dosa",
+      "ingredients": ["dosa batter", "oil"],
+      "instructions": "Pour dosa batter onto a hot tawa, spread it thin like you’re drawing a giant edible circle. Drizzle oil and cook until crispy. Serve with chutney and sambar, and bask in the glory of your culinary art."
+    },
+    {
+      "name": "Macaroni",
+      "ingredients": ["macaroni", "tomato", "cheese", "onion", "garlic", "spices"],
+      "instructions": "Boil macaroni until tender and set aside. Cook onions and garlic in a pan, add tomatoes and spices to create a tangy sauce. Toss in the macaroni and mix well. Top with cheese, and enjoy a comforting bowl of cheesy goodness."
+    },
+    {
+      "name": "Halwa",
+      "ingredients": ["semolina", "ghee", "sugar", "nuts"],
+      "instructions": "Toast semolina in ghee until it’s golden and fragrant. Add sugar, water, and nuts, stirring until it comes together like a sweet dream. Serve hot and enjoy every spoonful."
+    },
+    {
+      "name": "Puri",
+      "ingredients": ["flour", "oil", "salt"],
+      "instructions": "Knead a dough with flour, water, and a pinch of salt. Roll it into small discs, fry in hot oil until puffed and golden. Serve with potato curry or just enjoy them as they are!"
+    }
+  ]
+  
